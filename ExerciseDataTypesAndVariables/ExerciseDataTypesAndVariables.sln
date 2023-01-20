@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SumDigits", "02.SumDigit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.SpiceMustFlow", "09.SpiceMustFlow\09.SpiceMustFlow.csproj", "{D4C7064E-61EB-4D7A-B38D-1B4A0CE4B2A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.Snowballs", "11.Snowballs\11.Snowballs.csproj", "{C77858E4-F058-470C-9F4B-93D8DC4D41D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D4C7064E-61EB-4D7A-B38D-1B4A0CE4B2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4C7064E-61EB-4D7A-B38D-1B4A0CE4B2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4C7064E-61EB-4D7A-B38D-1B4A0CE4B2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C77858E4-F058-470C-9F4B-93D8DC4D41D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C77858E4-F058-470C-9F4B-93D8DC4D41D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C77858E4-F058-470C-9F4B-93D8DC4D41D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C77858E4-F058-470C-9F4B-93D8DC4D41D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
