@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.PrintPartOfASCIITable", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.TriplesOfLatinLetters", "06.TriplesOfLatinLetters\06.TriplesOfLatinLetters.csproj", "{918434D4-0DE9-4BB2-BCB8-C8AD6E98A65F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.WaterOverflow", "07.WaterOverflow\07.WaterOverflow.csproj", "{E5ECBCD1-4363-4009-83F7-340529693512}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{918434D4-0DE9-4BB2-BCB8-C8AD6E98A65F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{918434D4-0DE9-4BB2-BCB8-C8AD6E98A65F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{918434D4-0DE9-4BB2-BCB8-C8AD6E98A65F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5ECBCD1-4363-4009-83F7-340529693512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5ECBCD1-4363-4009-83F7-340529693512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5ECBCD1-4363-4009-83F7-340529693512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5ECBCD1-4363-4009-83F7-340529693512}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
