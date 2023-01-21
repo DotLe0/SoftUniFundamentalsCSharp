@@ -11,15 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.SpiceMustFlow", "09.Spic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.Snowballs", "11.Snowballs\11.Snowballs.csproj", "{C77858E4-F058-470C-9F4B-93D8DC4D41D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Elevator", "3.Elevator\3.Elevator.csproj", "{91D45E6B-BEA1-4A7B-B850-E48AC4497905}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.Elevator", "3.Elevator\3.Elevator.csproj", "{91D45E6B-BEA1-4A7B-B850-E48AC4497905}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SumOfChars", "04.SumOfChars\04.SumOfChars.csproj", "{7B47EE53-613F-4C15-8C75-D8E84C814B66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.SumOfChars", "04.SumOfChars\04.SumOfChars.csproj", "{7B47EE53-613F-4C15-8C75-D8E84C814B66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.PrintPartOfASCIITable", "05.PrintPartOfASCIITable\05.PrintPartOfASCIITable.csproj", "{7E2E3B72-9C2C-4398-9853-9892CA2C5851}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.PrintPartOfASCIITable", "05.PrintPartOfASCIITable\05.PrintPartOfASCIITable.csproj", "{7E2E3B72-9C2C-4398-9853-9892CA2C5851}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.TriplesOfLatinLetters", "06.TriplesOfLatinLetters\06.TriplesOfLatinLetters.csproj", "{918434D4-0DE9-4BB2-BCB8-C8AD6E98A65F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.TriplesOfLatinLetters", "06.TriplesOfLatinLetters\06.TriplesOfLatinLetters.csproj", "{918434D4-0DE9-4BB2-BCB8-C8AD6E98A65F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.WaterOverflow", "07.WaterOverflow\07.WaterOverflow.csproj", "{E5ECBCD1-4363-4009-83F7-340529693512}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.WaterOverflow", "07.WaterOverflow\07.WaterOverflow.csproj", "{E5ECBCD1-4363-4009-83F7-340529693512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.BeerKegs", "08.BeerKegs\08.BeerKegs.csproj", "{BF1BF9AC-BC62-48C8-80AE-CFBE92F04F2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{E5ECBCD1-4363-4009-83F7-340529693512}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5ECBCD1-4363-4009-83F7-340529693512}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5ECBCD1-4363-4009-83F7-340529693512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1BF9AC-BC62-48C8-80AE-CFBE92F04F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1BF9AC-BC62-48C8-80AE-CFBE92F04F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1BF9AC-BC62-48C8-80AE-CFBE92F04F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1BF9AC-BC62-48C8-80AE-CFBE92F04F2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
