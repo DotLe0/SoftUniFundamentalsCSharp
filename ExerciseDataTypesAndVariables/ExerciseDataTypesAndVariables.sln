@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.WaterOverflow", "07.Wate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.BeerKegs", "08.BeerKegs\08.BeerKegs.csproj", "{BF1BF9AC-BC62-48C8-80AE-CFBE92F04F2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.PokeMon", "10.PokeMon\10.PokeMon.csproj", "{A358DA8B-EB4C-40AF-9816-F6EAA5127DF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{BF1BF9AC-BC62-48C8-80AE-CFBE92F04F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF1BF9AC-BC62-48C8-80AE-CFBE92F04F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF1BF9AC-BC62-48C8-80AE-CFBE92F04F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A358DA8B-EB4C-40AF-9816-F6EAA5127DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A358DA8B-EB4C-40AF-9816-F6EAA5127DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A358DA8B-EB4C-40AF-9816-F6EAA5127DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A358DA8B-EB4C-40AF-9816-F6EAA5127DF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
