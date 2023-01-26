@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.DayOfWeek", "01.DayOfWeek\01.DayOfWeek.csproj", "{625249BB-FFE2-47EA-A0C0-D0BBCA130E8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.CondenseArrayToNumber", "08.CondenseArrayToNumber\08.CondenseArrayToNumber.csproj", "{A16089CA-D925-4BAC-91D4-903C3D56E0C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.CondenseArrayToNumber", "08.CondenseArrayToNumber\08.CondenseArrayToNumber.csproj", "{A16089CA-D925-4BAC-91D4-903C3D56E0C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.PrintNumbersInReverseOrder", "02.PrintNumbersInReverseOrder\02.PrintNumbersInReverseOrder.csproj", "{1F4CED9F-B6EE-44DA-A802-A2D0B22C8BC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A16089CA-D925-4BAC-91D4-903C3D56E0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A16089CA-D925-4BAC-91D4-903C3D56E0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A16089CA-D925-4BAC-91D4-903C3D56E0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F4CED9F-B6EE-44DA-A802-A2D0B22C8BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4CED9F-B6EE-44DA-A802-A2D0B22C8BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4CED9F-B6EE-44DA-A802-A2D0B22C8BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4CED9F-B6EE-44DA-A802-A2D0B22C8BC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
