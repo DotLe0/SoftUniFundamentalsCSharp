@@ -9,11 +9,11 @@
 
             for (int i = 0; i < array2.Length; i++)
             {
-                string currentElement = array2[i];
+                
 
-                if (array1.Contains(currentElement))
+                if (array1.Contains(array2[i]))
                 {
-                    Console.WriteLine(currentElement + " ");
+                    Console.Write(array2[i] + " ");
                 }
             }
         }
