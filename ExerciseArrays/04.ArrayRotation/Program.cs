@@ -14,9 +14,8 @@ namespace ConsoleApp75
                 int temp = lst[0];
                 lst.RemoveAt(0);
                 lst.Insert(lst.Count, temp);
-                Console.WriteLine(string.Join(" ", lst));
             }
-            //Console.WriteLine(string.Join(" ", lst));
+            Console.WriteLine(string.Join(" ", lst));
         }
     }
 }
