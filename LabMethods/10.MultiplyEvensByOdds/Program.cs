@@ -4,12 +4,12 @@
     {
         static void Main(string[] args)
         {
-           int number = int.Parse(Console.ReadLine());
-           number = Math.Abs(number);
+            int number = int.Parse(Console.ReadLine());
+            number = Math.Abs(number);
 
-           int evenSum = GetSumOfEvenDigits(number);
-           int oddSum = GetSumOfOddDigits(number);
-           int result = GetMultipleOfEvenAndOdds(evenSum,oddSum);
+            int evenSum = GetSumOfEvenDigits(number);
+            int oddSum = GetSumOfOddDigits(number);
+            int result = GetMultipleOfEvenAndOdds(evenSum,oddSum);
             Console.WriteLine(result);
         }
 
@@ -21,7 +21,7 @@
         static int GetSumOfEvenDigits(int number)
         {
             int sum = 0;
-            for (int i = 0; i < number; i++)
+            while (number > 0)
             {
                 int temp = number % 10;
                 if (temp % 2 == 0)
@@ -34,23 +34,17 @@
         }
 
         static int GetSumOfOddDigits(int number)
-        {
-            List<int> numbers = new List<int>();
+        {    
             int sum = 0;
-            for (int i = 0; i <= number; i++)
+            while (number > 0)
             {
                 int temp = number % 10;
-                numbers.Add(temp);
-                number /= 10;
-            }
-            numbers.Add(number);
-            for (int i = 0; i < numbers.Count; i++)
-            {
-                if (numbers[i] % 2 ==1)
+                if (temp % 2 == 1)
                 {
-                    sum += numbers[i];
+                    sum += temp;
                 }
-            }
+                number /= 10;
+            }       
             return sum;
         }
     }
