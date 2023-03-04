@@ -21,5 +21,5 @@ while (true)
 
 foreach(var kvp in mine)
 {
-    Console.WriteLine($"{kvp.Key} -> {kvp.Value:F2}");
+    Console.WriteLine($"{kvp.Key} -> {kvp.Value}");
 }
