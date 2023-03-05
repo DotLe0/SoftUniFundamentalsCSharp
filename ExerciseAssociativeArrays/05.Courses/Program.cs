@@ -15,7 +15,7 @@ while (true)
         continue;
     }
 
-    dict[list[0]].Add(list[1]);
+    dict[list[0].Trim()].Add(list[1]);
 }
 
 foreach (var kvp in dict)
