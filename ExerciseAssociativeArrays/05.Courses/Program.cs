@@ -3,19 +3,19 @@
 while (true)
 {
     List<string> list = Console.ReadLine().Split(":", StringSplitOptions.RemoveEmptyEntries).ToList();
-
+    list[0] = list[0].Trim();
     if (list[0] == "end")
     {
         break;
     }
 
-    if (!dict.ContainsKey(list[0].Trim()))
+    if (!dict.ContainsKey(list[0]))
     {
-        dict.Add(list[0].Trim(), new List<string> { list[1] });
+        dict.Add(list[0], new List<string> { list[1] });
         continue;
     }
 
-    dict[list[0].Trim()].Add(list[1]);
+    dict[list[0]].Add(list[1]);
 }
 
 foreach (var kvp in dict)
